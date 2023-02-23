@@ -1,0 +1,163 @@
+/* Import Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #f5f5f5;
+    
+}
+
+
+h2 {
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#happyFace {
+    width: 250px;
+    margin: 0 auto;
+    display: block;
+}
+
+#sadFace {
+    width: 250px;
+    margin: 0 auto;
+    display: block;
+}    
+
+/* #angryFace{
+    width: 100px;
+    height: 100px;
+} */
+
+
+    /* The Modal (background) */
+    
+ #modal { 
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */ 
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  
+  /* Modal Content */
+  .modalContainer {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+
+  .datetime {
+    font-size: 16px;
+    color: #000000;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+  }
+  
+ 
+  .date {
+    margin-top: 12px;
+    font-size: 1.75em;
+    text-align: center;
+  }
+
+  h3 {
+    color: #5e8eb7;
+    margin-top: 50px;
+  }
+  
+  #location {
+    margin-top: 20px;
+  }
+  
+  #location label {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  #location input {
+    font-size: 24px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  #location button {
+    font-size: 24px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #5e8eb7;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #location button:hover {
+    background-color: #4d759f;
+  }
+  
+  #weather {
+    margin-top: 50px;
+    font-size: 36px;
+    color: #5e8eb7;
+  }
+  
+  #icon {
+    font-size: 100px;
+    margin-bottom: 10px;
+  }
+
+  #image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  #image-container img {
+    width: 500px;
+    display: block;
+    margin: 20px auto;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+ 
